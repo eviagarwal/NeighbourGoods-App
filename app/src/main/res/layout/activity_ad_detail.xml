@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ad_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#E0F7FA"
+    tools:context="com.example.android.simpleblog.AdDetailActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Scientific Calculator"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:id="@+id/image" />
+
+    <ImageView
+
+        android:id="@+id/post_image"
+        android:src="@drawable/calci"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="0.15" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:text="Scientific calculator. 2years old. Perfectly working. Very useful for engineering students and others.No need of battery change ever in future . Charges automatically from sunlight."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Price: Rs.500"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textSize="20sp"
+    android:textColor="#000000"
+    android:text="Contact Details: 8989789456"/>
+</LinearLayout>
